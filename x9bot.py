@@ -24,7 +24,6 @@ def chk_lotter(update: Update, context) -> None:
 		user_grupo = update.message.chat.username
 		user_id = acao.id
 		user_username = acao.username
-	    canal = update.message.chat.id
 		canal_user = update.message.chat.username
 		grupo = update.message.chat.id
 		try:
