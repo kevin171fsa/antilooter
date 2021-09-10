@@ -5,7 +5,7 @@ from gtts import gTTS
 from dados import BOT_TOKEN, POST_CANAL
 
 #TROQUE POR SEU TOKEN
-rede_do_baiano = f"{1978585012:AAH5twyVYxgpKkF1QDMSBbZoJBayLpf9TSs}"
+rede_do_baiano = f"{BOT_TOKEN}"
 source_id = "0xO01x3701"
 corda_da = Updater(f"{rede_do_baiano}")
 levanta_baiano = telegram.Bot(token=f"{rede_do_baiano}")
