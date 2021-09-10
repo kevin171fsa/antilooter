@@ -16,7 +16,6 @@ def start(update: Update, context) -> None:
 	update.message.reply_text("""▫️<b>Olá Amigo seja bem vindo ao Anti Looter aprimorado por @Kevin71, 
 me adcione no seu grupo e me de permisões de ADMINISTRADOR para que eu possa banir todos os lotter.</b>""","html")
 
-
 def ping(update: Update, context) -> None:
 	update.message.reply_text(f"<b>Sistema Online = 🟢</b>""","html")
 
