@@ -24,11 +24,14 @@ fatmsg = lambda update: update.message.text[update.message.entities[0].length +1
 #AQUI ESTÁ O HANDLER DO MÓDULO 1: RESPONDE AO COMANDO DE START
 def start(update: Update, context) -> None:
 	#ENVIA UMA MENSAGEM DE BOAS VINDAS PARA O COMANDO /START
-	update.message.reply_text("""▫️<b>Olá baiano, como vai? Sou o x9delotters!
+	update.message.reply_text("""▫️<b>Olá tranquilo? so o !
 
-▫️CRIADOR/DONO: @Codipyt
+▫️CRIADOR/DONO: @Pythonprogg
 
-▫️SOURCE: https://github.com/Pythonencode-apis/x9delotters/</b>""","html")
+▫️Faço a checagem todo usuario que entra em seu grupo se estiver 
+na minha base de lotter serar banido de imediato!
+Me adcione em seu grupo e me torne de permisões de Administrador
+para que eu vigie seu Grupo</b>""","html")
 
 
 #AQUI ESTÁ O HANDLER DO MÓDULO 1: RESPONDE AO COMANDO DE PING
