@@ -3,32 +3,20 @@ from telegram import Update
 import requests, telegram, os
 from gtts import gTTS
 from dados import BOT_TOKEN, POST_CANAL
-#OBSERVAÇÕES: O código foi feito com o básico do python e o mínimo possível de importações e regras desnecessárias. Mas, é de sua liberdade melhorá-lo a seu gosto. Utilizei frases/padrões para facilitar a minha interpretação, tomem isso como um estímulo para pessoas com problemas de memória assim como eu :)
 
-
-#TROQUE POR SEU TOKEN
 rede_do_baiano = f"{BOT_TOKEN}"
 #AQUI ESTÁ O ID DA SOURCE, NÃO EDITE
 source_id = "0xO01x3701"
-#NÃO MEXA (AQUI O TOKEN É AUTENTICADO)
 corda_da = Updater(f"{rede_do_baiano}")
 levanta_baiano = telegram.Bot(token=f"{rede_do_baiano}")
 
-
-
-
 fatmsg = lambda update: update.message.text[update.message.entities[0].length +1:]
 
-
-
-#AQUI ESTÁ O HANDLER DO MÓDULO 1: RESPONDE AO COMANDO DE START
 def start(update: Update, context) -> None:
 	#ENVIA UMA MENSAGEM DE BOAS VINDAS PARA O COMANDO /START
-	update.message.reply_text("""▫️<b>Olá baiano, como vai? Sou o x9delotters!
+	update.message.reply_text("""▫️<b>Salve, eu sou o bot anti-loter, faço a checagem todo usuario que entra em seu grupo se estiver na minha base de lotter serar banido de imediato!
 
-▫️CRIADOR/DONO: @Codipyt
-
-▫️SOURCE: https://github.com/Pythonencode-apis/x9delotters/</b>""","html")
+▫️CRIADOR/DONO: @Kevin71</b>""","html")
 
 
 #AQUI ESTÁ O HANDLER DO MÓDULO 1: RESPONDE AO COMANDO DE PING
