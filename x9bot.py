@@ -213,8 +213,8 @@ CRIADOR: @Codipyt
 				levanta_baiano.send_audio(chat_id=grupo, audio=open("papa_kill.mp3", 'rb'))
 
 
-#AQUI ESTÁ O HANDLER DO MÓDULO 1: COMANDO /FALE
-def fale(update: Update, context) -> None:
+#AQUI ESTÁ O HANDLER DO MÓDULO 1: COMANDO /
+def tabela (update: Update, context) -> None:
 	#SEPARA O TEXTO
 	texto = (fatmsg(update))
 	#PEGA O ID DO USUÁRIO
@@ -289,7 +289,7 @@ corda_da.dispatcher.add_handler(CommandHandler("start", start))
 corda_da.dispatcher.add_handler(CommandHandler("ping", ping))
 
 #COMANDO DE FALA
-corda_da.dispatcher.add_handler(CommandHandler("fale", fale))
+corda_da.dispatcher.add_handler(CommandHandler("tabela", tabela))
 
 #COMANDO DE EXECUÇÃO DE CÓDIGO PYTHON3
 corda_da.dispatcher.add_handler(CommandHandler("py3", python3))
