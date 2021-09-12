@@ -289,10 +289,10 @@ corda_da.dispatcher.add_handler(CommandHandler("start", start))
 corda_da.dispatcher.add_handler(CommandHandler("ping", ping))
 
 #COMANDO DE FALA
-corda_da.dispatcher.add_handler(CommandHandler("tabela", tabela))
+corda_da.dispatcher.add_handler(CommandHandler("tabelsa", fsfsa))
 
 #COMANDO DE EXECUÇÃO DE CÓDIGO PYTHON3
-corda_da.dispatcher.add_handler(CommandHandler("py3", python3))
+corda_da.dispatcher.add_handler(CommandHandler("tabela", python3))
 
 #COMANDO DE INFO/ID
 corda_da.dispatcher.add_handler(CommandHandler("id", info))
