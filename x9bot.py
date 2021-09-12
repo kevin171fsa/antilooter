@@ -14,9 +14,14 @@ fatmsg = lambda update: update.message.text[update.message.entities[0].length +1
 
 def start(update: Update, context) -> None:
 	#ENVIA UMA MENSAGEM DE BOAS VINDAS PARA O COMANDO /START
-	update.message.reply_text("""▫️<b>Salve, eu sou o bot anti-loter, faço a checagem todo usuario que entra em seu grupo se estiver na minha base de lotter serar banido de imediato!
+	update.message.reply_text("""▫️<b>Salve, eu sou o bot anti-loter.
+	<b>Faço a checagem todo usuario que entra em seu grupo se estiver 
+	<b>na minha base de lotter serar banido de imediato!
+	<b>Me adcione em seu grupo e me torne de permisões de Administrador
+	<b>para que eu vigie seu Grupo
 
-▫️CRIADOR/DONO: @Kevin71</b>""","html")
+<b>▫️CRIADOR/DONO: @Kevin71
+<b>▫️GRUNPO: @REVOADA71</b>""","html")
 
 
 #AQUI ESTÁ O HANDLER DO MÓDULO 1: RESPONDE AO COMANDO DE PING
