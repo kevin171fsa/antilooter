@@ -1,1 +1,0 @@
-worker: python3 x9bot.py
